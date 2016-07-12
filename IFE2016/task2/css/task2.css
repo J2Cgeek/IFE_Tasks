@@ -1,1 +1,26 @@
 /*CSS file for task2.html*/
+.body{
+	background:#E3E3E3;
+	font-family:"微软雅黑";
+}
+nav{
+	height:80px;
+	width:100%;
+	background:#555555;
+	padding:0 0 0 0;
+}
+.nav_link{
+	position:absolute;
+	right:0;
+	top:30px;
+}
+.nav_href{
+	text-decoration:none;
+	color:white;
+	margin:5px;
+}
+article{
+	background:white;
+	margin:20px 10px;
+	padding:20px;
+}
