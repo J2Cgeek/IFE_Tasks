@@ -16,6 +16,6 @@
 <ul>
   <li><a href="https://jfc555.github.io/IFE_Tasks/IFE2016/task1/task1.html" >Task1</a></li>
 </ul>
-<footer>copyright&copy;jfc555</footer>
+<footer><i>copyright&copy;jfc555</i></footer>
 
 
