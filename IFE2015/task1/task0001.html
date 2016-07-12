@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Task1</title>
+<link rel="stylesheet" type="text/css" href="./css/task0001.css"/>
+</head>
+<body>
+	<h1>MyGithubAccountName</h1>
+	<ul>
+		<li><a href="#">HomePage</a></li>
+		<li><a href="#">Blog</a></li>
+	</ul>
+	<h2>这是二级标题</h2>
+	<p class="task1_2">这是我的第一个HTML页面，这里有一个文字段落</p> 
+	<img src="./images/task1.png" title="task1"/>
+	<p class="task1_5">以下用来实现跟text有关的<span>一些 操作hello world</span>,如text indent、text transform</p>
+
+	<!--居中显示-->
+	<h2>三种方法实现居中显示</h2>
+	<div id="box1">方法1aaaaaaaaaaaaaaaaaa</div>
+	<div class="centerbox">
+		<div id="box2">方法2bbbbbbbbbbbbbbbb</div>
+	</div>
+	<div id="box3">方法3cccccccccccccccccc</div>  
+
+	<!--圆角矩形-->
+	<h2>圆角矩形</h2>
+	<p>不使用boeder-raduis实现圆角矩形，实际上就是暴力绘制一个圆角矩形</p>
+	<div class="rect">
+		<!--上边沿四根-->
+		<div class="line l1_top"></div>
+		<div class="line l2"></div>
+		<div class="line l3"></div>
+		<div class="line l4"></div>
+		<!--左右两侧边框-->
+		<div class="TwoLine"><b>绘制圆角矩形</b></div>  
+		<!--下边沿四根-->
+		<div class="line l4"></div>
+		<div class="line l3"></div>
+		<div class="line l2"></div>
+		<div class="line l1_bottom"></div>
+	</div>
+	
+	<!--两列布局-->
+	<h2>两列布局</h2>
+	<p><b>用两种不同的方法来实现一个两列布局，其中左侧部分宽度固定、右侧部分宽度随浏览器宽度的变化而自适应变化</b></p>
+	<p><b>方法一:float+margin</b></p>
+	<p>设置为float模式布局，红蓝模块摆放好。不设置margin，对于模块会发生覆盖，但是字体仍然不变。
+	<br/>而为了两个块之前不覆盖，需要添加margin限制。</p>
+	<div class="div-a1">DIV-A1</div>
+	<div class="div-b1">DIV-B1</div>
+	<div class="div-c1">DIV-C1</div>
+	<p><b>方法二：inline-block+负值margin</b></p>
+	<p>j将ab设置为inline-block，这样二者就可以兼顾具有width属性和共处一行两种特性了。然后设定
+	<br/>负值margin，使得b色块不会因为太长而被挤到第二行。
+	<br/>为了消除ab色块的间隙，增加上级元素。将font-size设置为0.或者也可以利用html代码格式去除二者之间的空格。</p>
+	<div class="method2">
+		<div class="div-a2">DIV-A2</div>
+		<div class="div-b2">DIV-B2</div>
+		<div class="div-c2">DIV-C2</div>	
+	</div>
+	<p><b>方法三：position</b></p>
+	<p>使用position:absolute，此时设置为absolute属性，则a色块脱离文本流。因此ab能存在于同一行。
+	<br/>然后由于默认left不等于0，而是auto或者父元素的padding。因此直接采用默认位置就行了。在本例中。
+	<br/>如果设置left:0,则色块会再往左一点，ab之间将产生空隙。</p>
+	<div class="div-a3">DIV-A3</div>
+	<div class="div-b3">DIV-B3</div>
+	<div class="div-c3">DIV-C3</div>	
+	
+	<!--三列布局-->
+	<h2>三列布局</h2>
+	<p><b>用两种不同的方式来实现一个三列布局，其中左侧和右侧的部分宽度固定，中间部分宽度随浏览器宽度的变化而自适应变化而自适应变化</b></p>
+	<p><b>飞翼布局</b></p>
+	<p>飞翼布局实际上就是用float模式，利用margin的负值，把左右两侧模块布置到上层。然后因为中间主模块被左右侧模块覆盖，
+	<br/>因此选择在主模块下放个子模块，利用margin限制位置。从而不被遮挡。</p>
+	<div class="threeB1">
+		<div class="wrap">中间栏</div>
+	</div>
+	<div class="threeA1">左侧栏</div>
+	<div class="threeC1">右侧栏</div>	
+	<div class="clear"></div>	
+	<p><b>圣杯布局</b></p>
+	<p>圣杯布局前面几乎跟飞翼布局一样。只是最后防止遮挡的部分。先通过父元素设置padding，来缩小元素宽度。然后把
+	<br/>左右两个模块用position布置到最左边和最右边。</p>
+	<div class="ThreeColumn2">
+		<div class="threeB2">中间栏</div>
+		<div class="threeA2">左侧栏</div>
+		<div class="threeC2">右侧栏</div>	
+	</div>
+	<div class="clear"></div>
+	
+	<!--自适应浮动布局-->
+	<h2>自适应浮动布局</h2>
+	<p>实现一个浮动布局，红色容器中每一行的蓝色容器数量随着浏览器宽度的变化而变化 </p>
+	<div class="redbox">
+		<div class="bluebox">1</div>
+		<div class="bluebox">2</div>
+		<div class="bluebox">3</div>
+		<div class="bluebox">4</div>
+		<div class="bluebox">5</div>
+		<div class="bluebox">6</div>
+		<div class="bluebox">7</div>
+	</div>
+	<div class="clear"></div>	
+	
+</body>
+</html

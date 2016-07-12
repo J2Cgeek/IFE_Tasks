@@ -1,0 +1,241 @@
+/*author:Focusj-jfc
+  For Ife2015 spring task1
+  HTML+CSS
+*/
+
+/*text操作模块*/
+@font-face
+{
+font-family: myFirstFont;
+src: url('http://www.w3cschool.css/css3/Sansation_Light.ttf'),
+     url('http://www.w3cschool.css/css3/Sansation_Light.eot'); /* IE9 */
+}
+h1{
+	color:blue;
+}
+p.task1_2{
+	font-size:12px;
+	color:yellow;
+	background:black;
+}
+p.task1_5{
+	text-indent:2em;
+	color:red;
+	text-decoration:line-through;
+	word-spacing:2em;
+	text-align:left;
+	line-height:25px;
+	font-family:"微软雅黑";
+	font-size=22px;
+	white-space: nowrap;
+}
+span{
+	font-weight:bold;	
+	font-family:"myFirstFont";
+}
+img{
+	border:2px solid red;
+}
+
+/*block居中模块*/
+#box1{
+	width:960px;
+	background:red;
+	margin:0 auto;
+}
+.centerbox{
+	width:960px;
+	position:relative;
+	left:50%;
+}
+#box2{
+	background:red;
+	position:relative;
+	left:-50%;
+}
+#box3{
+	width:960px;
+	background:red;
+	position:absolute;
+	left:50%;
+	margin-left:-480px;
+}
+
+/*圆角矩形模块*/
+.rect{
+	margin:30px auto;
+	width:50%;
+}
+.line{
+	height:1px;
+}
+.TwoLine{
+	height:80px;
+	text-align:center;
+	line-height:80px;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+.l1_top{
+	margin:0 5px;
+	border-bottom:1px solid black;	
+}
+.l1_bottom{
+	margin:0 5px;
+	border-top:1px solid black;	
+}
+.l2{
+	margin:0px 3px;
+	border-left:2px solid black;
+	border-right:2px solid black;
+}
+.l3{
+	margin:0px 2px;
+	border-left:1px solid black;
+	border-right:1px solid black;		
+}
+.l4{
+	margin:0px 1px;
+	height:2px;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+/*两列布局*/
+.div-a1{
+	float:left;
+	background:red;
+	height:60px;
+	width:100px
+}
+.div-b1{
+	background:blue;
+	height:60px;
+	margin-left:100px;
+}
+.div-c1{
+	background:yellow;
+	height:60px;
+}
+
+.method2{
+	font-size:0px;
+}
+.div-a2{
+	display:inline-block;
+	background:red;
+	height:60px;
+	width:100px;
+	font-size:16px;
+}
+.div-b2{
+	display:inline-block;
+	background:blue;
+	width:100%;
+	height:60px;
+	margin-right:-120px;
+	font-size:16px;
+}
+.div-c2{
+	background:yellow;
+	height:60px;
+	font-size:16px;
+}
+
+.div-a3{
+	background:red;
+	height:60px;
+	width:100px;
+	position:absolute;
+}
+.div-b3{
+	background:blue;
+	height:60px;
+	margin-left:100px;
+}
+.div-c3{
+	background:yellow;
+	height:60px;
+	font-size:16px;
+}
+
+/*三列布局*/
+.threeB1{
+	float:left;
+	width:100%;
+	height:100px;
+	background:rgb(0,255,0);
+}
+.wrap{
+	margin-left:100px;
+	margin-right:200px;
+}
+.threeA1{
+	float:left;
+	width:100px;
+	height:100px;
+	background:rgb(255,0,0);
+	margin-left:-100%;
+}
+.threeC1{
+	float:left;
+	width:200px;
+	height:100px;
+	background:rgb(0,0,255);	
+	margin-left:-200px;
+}
+
+.ThreeColumn2{
+	padding-left:100px; /*在左侧空出左侧框体宽度的空白，用于放置左侧框体*/
+	padding-right:200px; /*在右侧空出左侧框体宽度的空白，用于放置左侧框体*/
+}
+.threeB2{
+	float:left;
+	width:100%;
+	height:100px;
+	background:rgb(0,255,0);
+}
+.threeA2{
+	float:left;
+	width:100px;
+	height:100px;
+	background:rgb(255,0,0);
+	margin-left:-100%;
+	position:relative;
+	left:-100px;
+}
+.threeC2{
+	float:left;
+	width:200px;
+	height:100px;
+	background:rgb(0,0,255);	
+	margin-left:-200px;
+	position:relative;
+	right:-200px;
+}
+
+
+
+	/*自适应浮动布局*/
+.redbox{
+
+	background:red;
+	width:100%;
+	overflow:hidden;
+}
+.bluebox{
+	float:left;
+	background:blue;	
+	height:50px;
+	width:150px;
+	margin:20px;
+}
+	
+	
+	
+	
+	
+.clear{
+	clear:both;
+}	
+	
