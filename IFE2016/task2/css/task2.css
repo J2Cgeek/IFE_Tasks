@@ -1,1 +1,116 @@
 /*CSS file for task2.html*/
+.body{
+	background:#E3E3E3;
+	font-family:"微软雅黑";
+}
+article{
+	background:white;
+	margin:30px 40px;
+	padding:20px;
+	-webkit-box-shadow:1px 3px 3px grey;
+	-moz-box-shadow:1px 3px 5px grey;  
+	box-shadow:1px 3px 5px grey;
+}
+nav{
+	height:80px;
+	width:100%;
+	background:#555555;
+	text-align:right;
+	line-height:80px;
+	box-shadow:1px 3px 5px black;
+}
+h3{
+	color:grey;
+}
+img.logo{
+	float:left;
+	height:120px;
+	margin-top:-8px;
+}
+img.normal_minions{
+	height:200px;
+}
+img.small_minions{
+	height:80px;
+	margin:10px 10px;
+}
+
+/*顶部导航*/
+.nav_link{
+	margin-right:10px;
+}
+.nav_href{
+	text-decoration:none;
+	color:white;
+	margin:5px;
+}
+.nav_href:hover{
+	color:grey;
+}
+/*几个图像框*/
+.image_box{
+	width:100px;
+	border:1px solid grey;
+}
+figcaption{
+	margin:10px 10px 0px 10px;
+	text-align:center;
+}
+/*表格*/
+table{
+	background:#E3E3E3;
+	width:100%;
+}
+tr{
+	background:white;
+}
+tr.tableheader{
+	background:#555555;
+	color:white;
+}
+tr.summary{
+	background:#E3E3E3;
+}
+th.tablecolumn3{
+	width:25%;
+}
+/*侧边栏*/
+h2.sidebar{
+	border-left:8px solid grey;
+	padding:10px 20px;
+}
+.emailaddr,.password1,.password2,.gender,.city,.hobby,.personalstatement,.sub_btn{
+	margin:10px;
+	clear:both;
+}
+.input_label{
+	float:right;
+	position:relative;
+	right:60%;
+}
+.input_box{
+	float:left;
+	position:relative;
+	left:40%;
+	margin-bottom:10px;
+
+}
+span.comment{
+	color:grey;
+	font-size:0.6em;
+}
+
+
+.submit_button{
+	display:block;
+	width:80%;
+	height:35px;
+	margin:auto;
+	background:rgb(74, 74, 219);
+	border-radius:9px;
+	border:0;
+	color:white;
+	font-family:"黑体";
+
+	box-shadow:2px 2px 5px #000000;
+}

@@ -15,7 +15,14 @@
 <p>IFE2016:</p>
 <ul>
   <li><a href="https://jfc555.github.io/IFE_Tasks/IFE2016/task1/task1.html" >Task1</a></li>
+<<<<<<< HEAD
 </ul>
 <footer><i>copyright&copy;jfc555</i></footer>
 
 
+=======
+  <li><a href="https://jfc555.github.io/IFE_Tasks/IFE2016/task2/task2.html" >Task2</a></li>
+</ul>
+<footer><i>copyright&copy;jfc555</i></footer>
+
+>>>>>>> origin/gh-pages
