@@ -1,4 +1,8 @@
 /*CSS file for task2.html*/
+*{
+	margin: 0px; 
+	padding: 0px; 
+}
 .body{
 	background:#E3E3E3;
 	font-family:"微软雅黑";
@@ -19,6 +23,7 @@ nav{
 	line-height:80px;
 	box-shadow:1px 3px 5px black;
 }
+
 h3{
 	color:grey;
 }
@@ -59,7 +64,10 @@ figcaption{
 /*表格*/
 table{
 	background:#E3E3E3;
+	
 	width:100%;
+	border:solid red;
+	border-width:0 1px 1px 0;
 }
 tr{
 	background:white;
@@ -73,6 +81,10 @@ tr.summary{
 }
 th.tablecolumn3{
 	width:25%;
+}
+td{
+	border:solid red;
+	border-width:0 1px 1px 0;
 }
 /*侧边栏*/
 h2.sidebar{
