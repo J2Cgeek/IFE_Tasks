@@ -1,21 +1,22 @@
-﻿/*CSS file for task2.html*/
+/*CSS file for task2.html*/
 *{
 	margin: 0px; 
 	padding: 0px; 
 }
-.body{
+body{
 	background:#E3E3E3;
 	font-family:"微软雅黑";
 }
-article{
+article,aside{
 	background:white;
-	margin:30px 40px;
-	padding:40px;
+	margin:30px 20px;
+	padding:30px;
 	-webkit-box-shadow:1px 3px 3px grey;
 	-moz-box-shadow:1px 3px 5px grey;  
 	box-shadow:1px 3px 5px grey;
+	overflow:hidden;
 }
-nav{
+nav,footer{
 	height:80px;
 	width:100%;
 	background:#555555;
@@ -23,20 +24,23 @@ nav{
 	line-height:80px;
 	box-shadow:1px 3px 5px black;
 }
-
 h3{
 	color:grey;
 }
+.clearfloat{
+	clear:both;
+}
 img.logo{
 	float:left;
-	height:120px;
-	margin-top:-8px;
+	height:46px;
+	margin-top:25px;
+	margin-left:15px;
 }
 img.normal_minions{
 	height:200px;
 }
 img.small_minions{
-	height:80px;
+	height:100px;
 	margin:10px 10px;
 }
 
@@ -44,55 +48,47 @@ img.small_minions{
 .nav_link{
 	margin-right:10px;
 }
-.nav_href{
+.nav_link a{
 	text-decoration:none;
 	color:white;
 	margin:5px;
 }
-.nav_href:hover{
+.nav_link a:hover{
 	color:grey;
 }
+
 /*几个图像框*/
-.image_box{
-	width:100px;
+article figure{
+	float:left;
+	width:120px;
 	border:1px solid grey;
+	margin:30px;
 }
 figcaption{
 	margin:10px 10px 0px 10px;
 	text-align:center;
 }
 /*表格*/
-table{
-<<<<<<< HEAD
-	background:#E3E3E3;
-	
-=======
-	background:#E3E3E3;	
->>>>>>> origin/master
+table{	
 	width:100%;
-	border:solid red;
-	border-width:0 1px 1px 0;
+	border-collapse:collapse;
 }
-tr{
-	background:white;
+table tr td{
+	border:1px solid grey;
 }
-tr.tableheader{
+table tr:first-child{
 	background:#555555;
 	color:white;
 }
-tr.summary{
+table tr th:nth-child(3){
+	width:30%;
+}
+table tr:last-child{
 	background:#E3E3E3;
-}
-th.tablecolumn3{
-	width:25%;
-}
-td{
-	border:solid red;
-	border-width:0 1px 1px 0;
 }
 
 /*侧边栏*/
-h2.sidebar{
+aside h2{
 	border-left:8px solid grey;
 	padding:10px 20px;
 }
@@ -116,8 +112,6 @@ span.comment{
 	color:grey;
 	font-size:0.6em;
 }
-
-
 .submit_button{
 	display:block;
 	width:80%;
@@ -130,4 +124,20 @@ span.comment{
 	font-family:"黑体";
 
 	box-shadow:2px 2px 5px #000000;
+}
+
+aside{
+	float:right;
+	width:350px;
+	position:absolute;
+	right:0;
+	top:80px;
+}
+article{
+	margin-right:460px;
+}
+footer{
+	text-align:center;
+	font-weight:bold;
+	line-height:80px;
 }
