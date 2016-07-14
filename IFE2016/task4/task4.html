@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Task4</title>
+<style type="text/css">
+.rectangle{
+	width:400px;
+	height:200px;
+	background:#ccc;
+	position:absolute; /*the height of browser is not defined, so if we use relative, the line "top:50%" can't be executed.*/
+	left:50%;
+	top:50%;
+	margin-left:-200px;
+	margin-top:-100px;
+}
+.left_corner{
+	width:50px;
+	height:50px;
+	background:#fc0;
+	border-radius:0 0 50px 0;
+}
+.right_corner{
+	width:50px;
+	height:50px;
+	background:#fc0;
+	border-radius:50px 0 0 0;
+	position:relative;
+	left:350px;
+	top:100px;
+}
+
+</style>
+<body>
+<div class="rectangle">
+	<div class="left_corner">
+	</div>
+	<div class="right_corner">
+	</div>
+</div>
+</body>
+<foot>Copyright&copy;<span style="display:hidden;overflow:hidden;clear:both;">JFC</span></foot>
+</html>
