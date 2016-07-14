@@ -15,14 +15,9 @@
 <p>IFE2016:</p>
 <ul>
   <li><a href="https://jfc555.github.io/IFE_Tasks/IFE2016/task1/task1.html" >Task1</a></li>
-<<<<<<< HEAD
-</ul>
-<footer><i>copyright&copy;jfc555</i></footer>
-
-
-=======
   <li><a href="https://jfc555.github.io/IFE_Tasks/IFE2016/task2/task2.html" >Task2</a></li>
+  <li><a href="https://jfc555.github.io/IFE_Tasks/IFE2016/task3/task3.html" >Task3</a></li>
+  <li><a href="https://jfc555.github.io/IFE_Tasks/IFE2016/task4/task4.html" >Task4</a></li>
 </ul>
-<footer><i>copyright&copy;jfc555</i></footer>
+<footer><i>copyright&copy;<span style="display:hidden">jfc555</i></footer>
 
->>>>>>> origin/gh-pages
